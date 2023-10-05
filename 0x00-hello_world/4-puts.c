@@ -1,12 +1,12 @@
 #include <stdio.h>
-/*
- *main-this is the main function
+/**
+ *main- writes the string s and a trailing newline to stdout
  *
- *RETURN: always 0
+ *RETURN: always o
  */
-int main (void)
+int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle");
-return (0);
+	print("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
 
