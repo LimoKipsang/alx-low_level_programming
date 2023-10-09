@@ -6,7 +6,7 @@
 int main(void)
 {
 int k;
-for (k = '01' ; k <= '89' ; k++)
+for (k = "01" ; k <= "89" ; k++)
 {
 putchar(k + '0')
 if (k != 89)
