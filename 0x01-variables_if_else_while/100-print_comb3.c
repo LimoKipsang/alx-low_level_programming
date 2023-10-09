@@ -1,21 +1,19 @@
 #include <stdio.h>
 /**
- *main- main function
+ *main -main function
  *Return: always o
  */
 int main(void)
 {
-int z;
-for (z = 0 ; z < 10 ; z++)
+int k;
+for (k = '01' ; k <= '89' ; k++)
 {
-if (z == 9)
-putchar(z + '0');
-else
+putchar(k + '0')
+if (k != 89)
 {
-putchar(z + '0');
 putchar(',');
 putchar(' ');
 }
-}
+putchar('\n');
 return (0);
 }
