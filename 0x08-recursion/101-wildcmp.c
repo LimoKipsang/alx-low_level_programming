@@ -5,7 +5,7 @@
  * @s2: pointer to string paramas
  * Return: 0
  */
-int wildcmp(char *s1, cahr *s2)
+int wildcmp(char *s1, char *s2)
 {
 	if (*s1 == '\0')
 	{
